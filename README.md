@@ -1,17 +1,7 @@
-# tentwenty_test
 
-A new Flutter project.
+<img width="962" alt="Screenshot 2024-10-26 at 11 09 55 PM" src="https://github.com/user-attachments/assets/10817327-b955-4fb1-8bac-f276217227fe">
+videos api not contain any trailer url
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# tentwenty
+<img width="962" alt="Screenshot 2024-10-26 at 11 11 04 PM" src="https://github.com/user-attachments/assets/292fd4a4-9001-4362-8cb4-339ba6b286fc">
+image is not loading by using the api you provided
+https://drive.google.com/drive/folders/1WIhZXfbuZxSf79ZUJYNilrRM7UYw8pJR?usp=drive_link
