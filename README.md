@@ -4,4 +4,5 @@ videos api not contain any trailer url
 
 <img width="962" alt="Screenshot 2024-10-26 at 11 11 04 PM" src="https://github.com/user-attachments/assets/292fd4a4-9001-4362-8cb4-339ba6b286fc">
 image is not loading by using the api you provided
-https://drive.google.com/drive/folders/1WIhZXfbuZxSf79ZUJYNilrRM7UYw8pJR?usp=drive_link
+Apk link
+https://drive.google.com/drive/folders/1WIhZXfbuZxSf79ZUJYNilrRM7UYw8pJR?usp=sharing
