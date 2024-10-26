@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:tentwenty_test/config/extensions/height_width_extension.dart';
 import 'package:tentwenty_test/config/extensions/size_extension.dart';
+import 'package:tentwenty_test/config/router/routes.dart';
 import 'package:tentwenty_test/core/bloc/watch_bloc/watch_bloc.dart';
 import 'package:tentwenty_test/core/bloc/watch_bloc/watch_event.dart';
 import 'package:tentwenty_test/core/bloc/watch_bloc/watch_state.dart';
@@ -31,15 +32,12 @@ class DashboardScreen extends HookWidget {
       _selectedIndex.value = index;
     }
 
-
-
     return Scaffold(
       appBar: _appBar(_selectedIndex.value, context),
       body: Stack(
         alignment: Alignment.bottomCenter,
         children: [
           _body(_selectedIndex.value, context),
-          
           Container(
             padding: const EdgeInsets.symmetric(vertical: 15),
             width: context.getSize.width,
@@ -92,6 +90,14 @@ class DashboardScreen extends HookWidget {
         return AppBar();
       case 1:
         return AppBar(
+          actions: [
+            GestureDetector(
+                onTap: () {
+                  Navigator.pushNamed(context, Routes.search,);
+                },
+                child: SvgPicture.asset(Assets.icons.search)),
+            context.widthBox(0.02)
+          ],
           title: appText(
               context: context,
               text: "Watch",

@@ -4,4 +4,5 @@ class Routes{
   static const ticket ='/ticket';
   static const videoPlayer ='/videoplayer';
   static const selectseat ='/selectseat';
+  static const search ='/search';
 }
