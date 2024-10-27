@@ -6,3 +6,5 @@ videos api not contain any trailer url
 image is not loading by using the api you provided
 Apk link
 https://drive.google.com/drive/folders/1WIhZXfbuZxSf79ZUJYNilrRM7UYw8pJR?usp=sharing
+apk we transer folder link try this if driver apk giving issue during installation
+https://we.tl/t-hcnfycUPrV
