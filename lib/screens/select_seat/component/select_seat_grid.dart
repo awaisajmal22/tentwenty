@@ -214,6 +214,7 @@ class _ChairGridState extends State<ChairGrid> {
   @override
   Widget build(BuildContext context) {
     return GridView.builder(
+      shrinkWrap: true,
       physics: const BouncingScrollPhysics(),
       scrollDirection: Axis.vertical,
       padding: const EdgeInsets.symmetric(horizontal: 50),
@@ -224,27 +225,27 @@ class _ChairGridState extends State<ChairGrid> {
       itemBuilder: (context, index) {
         int row = index ~/ seatingChart[0].length;
         int col = index % seatingChart[0].length;
-    
+
         if (col == 4 || col == 13) {
           return Container(
             height: 20,
             color: Colors.transparent,
           );
         }
-    
+
         if (row == 0 && (col < 2 || col >= seatingChart[0].length - 2)) {
           return Container(
             color: Colors.transparent,
           );
         }
-    
+
         if ((row == 1 || row == 2 || row == 3) &&
             (col == 0 || col == seatingChart[0].length - 1)) {
           return Container(
             color: Colors.transparent,
           );
         }
-    
+
         return GestureDetector(
           onTap: () {
             setState(() {
